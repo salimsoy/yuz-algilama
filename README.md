@@ -8,7 +8,7 @@ Tespit edilen görüntü, gerçek zamanlı olarak ekrana yansıtılır.
 Projede, OpenCV içerisinde yer alan hazır ve önceden eğitilmiş Haar Cascade sınıflandırıcısı kullanılmıştır.
 
 
-Uygulamanın Özellikleri
+NASIL GERÇEKLEŞİYOR
 
 - Yüz algılama işlemi için, OpenCV'nin varsayılan olarak sunduğu model olan haarcascade_frontalface_default.xml dosyası dahil edilir.
 - Bilgisayar kamerası webcam ile canlı görüntü alınır.
