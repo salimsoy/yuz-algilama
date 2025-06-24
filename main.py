@@ -3,7 +3,8 @@ import cv2
 
 def adjusted_detect_face(img, face_cascade):
     face_img = img.copy()
-    face_rect = face_cascade.detectMultiScale(face_img, 
+    gray = cv2.cvtColor(face_img, cv2.COLOR_BGR2GRAY)
+    face_rect = face_cascade.detectMultiScale(gray, 
                                               scaleFactor=1.2, 
                                               minNeighbors=5)
     for (x, y, w, h) in face_rect:
